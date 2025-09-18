@@ -1,0 +1,11 @@
+{
+  "title": "Data Engineering Guide",
+  "description": "A comprehensive guide to data engineering concepts, tools, and best practices",
+  "author": "Data Engineering Team",
+  "language": "en",
+  "root": "./",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "data-engineering",
+  "version": "1.0.0",
+  "description": "Data Engineering Documentation Site",
+  "main": "index.js",
+  "scripts": {
+    "docs:init": "honkit init",
+    "docs:build": "honkit build",
+    "docs:serve": "honkit serve",
+    "build": "npm run docs:build",
+    "dev": "npm run docs:serve",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["data-engineering", "documentation", "gitbook"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "honkit": "^6.1.4"
+  }
+}
