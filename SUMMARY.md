@@ -2,26 +2,27 @@
 
 * [Introduction](README.md)
 
-## Core Concepts
-* [Data Pipeline Architecture](chapters/data-pipeline-architecture.md)
-* [Data Storage Solutions](chapters/data-storage-solutions.md)
-* [Data Processing Frameworks](chapters/data-processing-frameworks.md)
+## Setup
+* [Class 1 Prerequisites](chapters/setup-pre-requisites.md)
 
-## Data Quality & Governance
+## Class 1
 * [Data Quality Management](chapters/data-quality-management.md)
 * [Data Governance](chapters/data-governance.md)
 
-## Cloud Platforms
+## Class 2
 * [AWS Data Services](chapters/aws-data-services.md)
 * [Azure Data Platform](chapters/azure-data-platform.md)
 * [Google Cloud Data Services](chapters/gcp-data-services.md)
 
-## Best Practices
+## Class 3
 * [Testing Data Pipelines](chapters/testing-data-pipelines.md)
 * [Monitoring & Alerting](chapters/monitoring-alerting.md)
 * [Performance Optimization](chapters/performance-optimization.md)
 
-## Appendices
+## Project
 * [Glossary](chapters/glossary.md)
 * [Resources](chapters/resources.md)
 
+## Assignment 1
+
+## Assignment 2
