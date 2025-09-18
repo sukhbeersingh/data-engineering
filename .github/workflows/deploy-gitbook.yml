@@ -1,13 +1,17 @@
 name: Build and Deploy GitBook to GitHub Pages
 
+
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  # Run this workflow when the pages-build-deployment action is triggered
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
