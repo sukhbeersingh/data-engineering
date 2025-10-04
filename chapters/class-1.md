@@ -244,7 +244,7 @@ People will often use the generic term “iterate” when referring to loops; it
 #### While
 Continue something until a condition is met.
 ```
-print('BANK OF CODÉDEX')
+print('BANK OF BRAMPTON')
 
 pin = int(input('Enter your PIN: '))
 
