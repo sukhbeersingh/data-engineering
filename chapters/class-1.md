@@ -8,7 +8,9 @@ Instructions -
 * where does it get stored
 
 Binary expression of data -
+
 0 & 1 (False and True)
+
 01 - 10 (1-3)
 11 
 [Link](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:digital-information/xcae6f4a7ff015e7d:binary-numbers/a/bits-and-binary)
@@ -513,10 +515,8 @@ Does this work? How do we fix it?
 What are global scope variables?
 
 ### Next up
-* Classes and objects
 * Modules
 * Numpy
 * Pandas
 * Azure + web technologies
-
 

@@ -10,7 +10,8 @@
 * [Class 1 Exercises](chapters/class-1-exercises.md)
 
 ## Class 2
-* [Azure Data Platform](chapters/azure-data-platform.md)
+* [Class 2 Instructions](chapters/class-2.md)
+* [Class 2 Exercises](chapters/class-2-exercises.md)
 
 ## Class 3
 
@@ -18,7 +19,7 @@
 * [Glossary](chapters/glossary.md)
 * [Resources](chapters/resources.md)
 
-## Assignment 1
+## Assignments
 * [Assignment 1](chapters/assignment-1.md)
+* [Assignment 2](chapters/assignment-2.md)
 
-## Assignment 2
