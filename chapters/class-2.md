@@ -203,6 +203,7 @@ print(arr.shape)     # Output: (4, 3)
 If we want to change the shape of an array, we use the .reshape() function.
 
 Suppose we want to convert the following 1D array into a 2D one:
+
 ```
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8]) 
 new_arr = arr.reshape(2, 4)
@@ -213,6 +214,7 @@ print(new_arr)
 # [[1 2 3 4]
 # [5 6 7 8]]
 ```
+
 Here we are turning the arr array into two dimensions:
 
 The 1st dimension has `2` rows.
@@ -226,22 +228,26 @@ In Python, we have the built-in `.range()` function that we use in a `for` loop.
 The `.arange()` function, short for “array range”, is a function that creates an array with evenly spaced values.
 
 For example:
+
 ```
 arr = np.arange(5)
 
 print(arr)    # Output: [0 1 2 3 4]
 ```
+
 You can go further with its three parameters:
 
 - `start` is the first value in the array.
 - `stop` is end of the range.
 - `step` is step size of the intervals.
 For example:
+
 ```
 arr = np.arange(start=1, stop=10, step=3)
 
 print(arr)   # Output: [1 4 7]
 ```
+
 * We start with the value 1.
 * We stop at the value 10.
 * We go up 3 each time.
@@ -264,6 +270,7 @@ why?
 import pandas as pd
 
 # Recent Oscar winners
+
 movie_data = {
   'title': ['Parasite', 'Nomadland', 'CODA', 'Everything Everywhere All at Once', 'Oppenheimer', 'Anora'],
   'release_date': ['2019-05-30', '2020-09-11', '2021-01-28', '2022-03-11', '2023-07-21', '2024-05-24'],
@@ -276,6 +283,7 @@ movie_data = {
 }
 
 # Create the DataFrame
+
 movies = pd.DataFrame(movie_data)
 ```
 
@@ -284,6 +292,7 @@ A DataFrame is the heart of the Pandas library. Think of it like a spreadsheet w
 
 ### Creating Dataframes
 from data dictionary
+
 ```
 import pandas as pd
 
@@ -295,7 +304,9 @@ data = {
 
 df = pd.DataFrame(data)
 ```
+
 from list of lists
+
 ```
 data = [
   ['Brooklyn', 'US', 2646000],
@@ -306,7 +317,9 @@ data = [
 
 df = pd.DataFrame(data, columns=['city', 'country', 'population'])
 ```
+
 from a CSV File
+
 ```
 df = pd.read_csv('my_filename.csv')
 ```
