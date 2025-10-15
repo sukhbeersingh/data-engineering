@@ -1,6 +1,89 @@
 # Assignment 2
 
 ## Problem 1
+####  Create a numpy array with the elements  `"1, 2, 3, 5, 0"`, print the array and test if all of its elements are non-zero.
+
+<details> 
+  <summary>
+    Hint:
+  </summary>
+
+  Use `np.all`. 
+
+  https://numpy.org/doc/stable/reference/generated/numpy.all.html#numpy.all
+
+</details>
+
+#### Create a numpy array with the elements "0, 0, 0, 0", print the array and test if any of its elements is non-zero.
+
+<details> 
+  <summary>
+    Hint:
+  </summary>
+
+  Use `np.any`. 
+
+  https://numpy.org/doc/stable/reference/generated/numpy.any.html
+
+</details>
+
+#### Create a numpy array with the elements "56, -2, 7", print the array and the amount of memory required to store it.
+
+<details> 
+  <summary>
+    Hint:
+  </summary>
+
+  Use `.nbytes`, `.itemsize` and `.shape`. 
+
+</details>
+
+#### Create a numpy array with 10 zeros and print the array.
+
+<details> 
+  <summary>
+    Hint:
+  </summary>
+
+  Use `np.zeros`
+
+</details>
+
+#### Create a numpy array with 6 ones and print the array.
+
+<details> 
+  <summary>
+    Hint:
+  </summary>
+
+  Use `np.ones`. 
+
+</details>
+
+#### Create a numpy array with 12 '3's and print the array. [3 3 3 3 3 3 3 3 3 3 3 3]
+
+<details> 
+  <summary>
+    Hint:
+  </summary>
+
+  Use `np.full`. 
+
+</details>
+
+#### Create a numpy array of the integers from 8 to 20 and print the array. (make sure 20 itself is included) 
+
+<details> 
+  <summary>
+    Hint:
+  </summary>
+
+  Use `np.arange`. 
+
+</details>
+
+
+## Problem 2
 We've all been taught to check for cracked eggs before purchasing in grocery stores. But did you know that the probability of getting a rotten egg from a lot of 400 eggs is 3.5%?
 
 Suppose we have a factory machine that determines the freshness of an egg (based on the expiration date, cracks in the shell, and smell) then assigns a number:
@@ -28,12 +111,15 @@ Which carton should you get?
 
 Calculate the average freshness of each of the cartons with `np.average()` and see which one has the lowest average (least fresh) and the highest average (most fresh).
 
-## Problem 2
+## Problem 3
 Halley's Comet is a comet visible from Earth every 75 years. It is the only known "short-period comet" that is consistently visible to the naked eye from Earth. It was last seen in 1986 and the next one will happen in 2061. 💫
 
 Using `.arange()`, create an array of numbers with the years when Halley's Comet will appear next from year 1986 to 3000.
 
-## Problem 3
+## Problem 4
+
+Use pandas
+
 Titanic is a classic movie about one of the most famous shipwrecks in human history. 🚢
 
 Below is an array filled with real data from 50 of the passengers:
@@ -108,7 +194,7 @@ Your job as a data analyst is to find the following information:
 
 What is the percentage of the folks that survived based on their passenger class? 😮
 
-## Problem 4
+## Problem 5
 import pandas at the top of the file.
 
 Then, create a DataFrame named contacts containing information about your friends, family, or fictional characters. Your DataFrame should have at least 3 columns and 4 rows.
