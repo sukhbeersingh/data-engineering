@@ -14,6 +14,7 @@
 * [Class 2 Exercises](chapters/class-2-exercises.md)
 
 ## Class 3
+* [Class 3 Instructions](chapters/class-3.md)
 
 ## Project
 * [Glossary](chapters/glossary.md)
@@ -22,4 +23,5 @@
 ## Assignments
 * [Assignment 1](chapters/assignment-1.md)
 * [Assignment 2](chapters/assignment-2.md)
+* [Assignment 3](chapters/assignment-3.md)
 
