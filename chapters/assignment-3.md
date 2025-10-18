@@ -17,7 +17,7 @@ Each row represents a listing with details such as coordinates, neighborhood, ho
 <details>
 <summary> Sample code </summary>
 
-```python
+```
 import pandas as pd
 import os
 
@@ -56,7 +56,7 @@ for city, file_path in city_files.items():
 <details>
 <summary> Sample code</summary>
 
-```python
+```
 # Combine all city DataFrames into one
 all_listings = pd.concat(city_dfs, ignore_index=True)
 

@@ -82,7 +82,7 @@ How do we findout which apps have more than 4.5 rating?
 <summary> Solution
 </summary>
 
- ```python
+ ```
 app_data_rating = app_data[app_data['rating'] > 4.5]
 
 # this can be broken down into these two steps
@@ -100,7 +100,7 @@ how do we find out which apps have a rating more than 4.5 and downloads of more 
 <summary> Solution
 </summary>
 
- ```python
+ ```
 popular_apps = app_data[
     (app_data['rating'] > 4.5) &
     (app_data['downloads_millions') > 1000
@@ -168,9 +168,9 @@ select distinct first_name from samples.bakehouse.sales_customers where country 
 we can also use conditional operators here:
 * = equal to
 * != not equal to
-* > greater than
+* \> greater than
 * < less than
-* >= greater than or equal to
+* \>= greater than or equal to
 * <= less than or equal to
 
 how do we find all the female customers from Australia?
@@ -273,17 +273,17 @@ CREATE TABLE companies (
 ```
 we are creating a new table of companies with the following columns:
 
-id column of the data type INTEGER.    
-name column of the data type TEXT.    
-headquarters column of the data type TEXT.   
-year column of the data type INTEGER
+* id column of the data type INTEGER.    
+* name column of the data type TEXT.    
+* headquarters column of the data type TEXT.   
+* year column of the data type INTEGER
 
 #### Datatypes
 these are some most common types:      
-TEXT: a text string.   
-INTEGER: a positive or negative whole number.   
-REAL: a positive or negative decimal number.  
-DATE: a date format (YYYY-MM-DD).  
+* TEXT: a text string.
+* INTEGER: a positive or negative whole number.
+* REAL: a positive or negative decimal number. 
+* DATE: a date format (YYYY-MM-DD).
 
 ### Inserting data
 
@@ -295,17 +295,17 @@ VALUES (1, 'Twitter', 'San Francisco', 2006);
 
 whats happening here
 
-`INSERT INTO` is a clause that adds the specified row.   
-`companies` the name of the table the row is being added to.   
-`(id, name, headquarters, year)` is a parameter with the column names that data will be inserted to.   
-`VALUES` clause indicates the data being inserted.    
-`(1, 'Twitter', 'San Francisco', 2006)` are the values.   
+* `INSERT INTO` is a clause that adds the specified row.   
+* `companies` the name of the table the row is being added to.   
+* `(id, name, headquarters, year)` is a parameter with the column names that data will be inserted to.   
+* `VALUES` clause indicates the data being inserted.    
+* `(1, 'Twitter', 'San Francisco', 2006)` are the values.   
 After using this statement, there'll be be a new row in companies where:
 
-`id` is 1     
-`name` is 'Twitter'         
-`headquarters` is 'San Francisco'    
-`year` is 2006
+* `id` is 1     
+* `name` is 'Twitter'         
+* `headquarters` is 'San Francisco'    
+* `year` is 2006
 
 we can add multiple rows
 ```sql
