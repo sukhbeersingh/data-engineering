@@ -16,6 +16,9 @@
 ## Class 3
 * [Class 3 Instructions](chapters/class-3.md)
 
+## Class 4 
+* [Class 4 Instructions](chapters/class-4.md)
+
 ## Project
 * [Glossary](chapters/glossary.md)
 * [Resources](chapters/resources.md)
